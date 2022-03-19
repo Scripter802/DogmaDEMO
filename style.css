@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+	  overflow: hidden; /* Hide scrollbars */
+}
+
+#bucket{
+background-color: red;
+width: 10vh;
+height: 10vh;
+bottom: 1vh;
+position: absolute;
+}
+
+.column {
+  float: left;
+  width: 100%;
+  padding: 1vh;
+  height: 100vh;
+}
+
+.spawnPoint{
+position: absolute;	
+background-color: grey;
+width: 5vh;
+height: 5vh;
+}
+
+.bottle{
+position: absolute;	
+background-color: black;
+width: 3vh;
+height: 5vh;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.full-height {
+  height: 100%;
+}
+
